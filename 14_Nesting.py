@@ -1,11 +1,25 @@
-# Nesting conditions.
+#  _   _       _ _ ____             _    
+# | \ | |_   _| | |  _ \ ___   ___ | |_  
+# |  \| | | | | | | |_) / _ \ / _ \| __| 
+# | |\  | |_| | | |  _ < (_) | (_) | |_  
+# |_| \_|\__,_|_|_|_|_| \_\___/ \___/ \__|  
 
+#         Created By: NullRoot
+
+# ----------------------------------
+# 🔁 Nesting Conditions in Python
+# ----------------------------------
+
+# Sample value
 age = 94
 
-if (age >= 18):
-    if (age >= 80):
+# Outer condition
+if age >= 18:
+    # Inner condition
+    if age >= 80:
         print("Cannot Drive")
     else:
         print("Can Drive")
 else:
-    print("cannot Drive")
+    print("Cannot Drive")
+# Output: Cannot Drive

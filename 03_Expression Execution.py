@@ -1,34 +1,39 @@
-# #String & Numeric value can operate together with *
+#  _   _       _ _ ____             _    
+# | \ | |_   _| | |  _ \ ___   ___ | |_  
+# |  \| | | | | | | |_) / _ \ / _ \| __| 
+# | |\  | |_| | | |  _ < (_) | (_) | |_  
+# |_| \_|\__,_|_|_|_| \_\___/ \___/ \__|  
 
-# A,B = 2,3
-# Txt = "@"
-# print(2*Txt*3)
+#         Created By: NullRoot
 
+# String & Numeric values can operate together with *
 
-# #String & String can operate with +
+# Example: multiplying a string with integers repeats the string
+A, B = 2, 3
+Txt = "@"
+print(2 * Txt * 3)  # Output: '@@@@@@'
 
-# #A,B = 2,3
-# #Txt = "@"
-# #print((A+Txt)*B)
+# String & String can operate with +
 
-# Numeric values can operate with all arithmetic operators.
+# Uncomment below to see how string concatenation and multiplication works
+# print((str(A) + Txt) * B)  # Output: '2@2@2@'
 
-# A,B = 2, 5.0
-# C = 4
-# print(A+B*C)
+# Numeric values can operate with all arithmetic operators
+A, B = 2, 5.0
+C = 4
+print(A + B * C)  # Output: 22.0 (5.0 * 4 + 2)
 
-#Result of division operator with two integer will be float
+# Result of division operator with two integers will be float
+A, B = 1, 2
+C = A / B
+print(C)  # Output: 0.5
 
-# A,B = 1,2
-# C = A/B
-# print(C)
+# Integer division (//) with float and int gives floor division result
+A, B = 1.5, 3
+C = A // B
+print(C, A / B)  # Output: 0.0 0.5
 
-#Integer (//) division with float and int will give int display as float 
-
-# A,B = 1.5, 3
-# C = A//B
-# print(C, A/B)
-
-A,B = 5,-2
-C = A%B
-print(C)
+# Modulo operation (remainder) with negative denominator
+A, B = 5, -2
+C = A % B
+print(C)  # Output: -1

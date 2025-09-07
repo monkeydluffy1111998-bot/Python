@@ -4,7 +4,7 @@
  | |\  | |_| | | |  _ < (_) | (_) | |_  
  |_| \_|\__,_|_|_|_| \_\___/ \___/ \__|  
 
-        Created By: NillRoot
+        Created By: NullRoot
 
 
 
@@ -66,7 +66,7 @@ other characters - Python can process all ASCII and Unicode characters as part o
 
 A Variable is a container (or a box) in a memory that stores data, and you give it a name so you can use it latter.
 
-name = NillRoot
+name = NullRoot
 age = 17
 
 ---
@@ -356,3 +356,8 @@ tup.index( el ) #returns index of first occurrence  tup.index(1) is 1
 
 tup.count( el ) #counts total occurrences tup.count(1) is 2
 
+
+
+---
+
+### ***

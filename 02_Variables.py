@@ -1,4 +1,12 @@
+#  _   _       _ _ ____             _    
+# | \ | |_   _| | |  _ \ ___   ___ | |_  
+# |  \| | | | | | | |_) / _ \ / _ \| __| 
+# | |\  | |_| | | |  _ < (_) | (_) | |_  
+# |_| \_|\__,_|_|_|_| \_\___/ \___/ \__|  
+
+#         Created By: NullRoot
+
 name = "NullRoot"
 age = "17"
 
-print(name, "is", age, "year old.")
+print(name, "is", age, "years old.")

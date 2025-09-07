@@ -1,12 +1,20 @@
-light = input("Light Color :")
+#  _   _       _ _ ____             _    
+# | \ | |_   _| | |  _ \ ___   ___ | |_  
+# |  \| | | | | | | |_) / _ \ / _ \| __| 
+# | |\  | |_| | | |  _ < (_) | (_) | |_  
+# |_| \_|\__,_|_|_|_| \_\___/ \___/ \__|  
 
-if(light == "Red"):
+#         Created By: NullRoot
+
+light = input("Light Color: ").capitalize()  # Capitalize to handle case-insensitive input
+
+if light == "Red":
     print("Stop")
 
-elif(light == "Yellow"):
+elif light == "Yellow":
     print("Look")
 
-elif(light == "Green"):
+elif light == "Green":
     print("Go")
 
 else:
