@@ -248,6 +248,8 @@ Input statment is used to accept values (using keyboards) from users.
 
 String is a data type that contain a sequence of characters.
 
+String = Inmutabe
+
 ## Basic Operations
 
 # Concatenation
@@ -280,4 +282,77 @@ Nesting means putting one thing inside another.
 
 
 ### ***Conditional Statement***
+
+if-elif-else (SYNTAX)
+
+if(condition) :
+
+Statement1
+
+elif(condition):
+
+Statement2
+
+else:
+
+StatementN
+
+
+### ***List in Python***
+
+A built in data type that stores set of values 
+it can store elements of different types (intiger, float, string, etc..)
+
+
+marks = [87, 64, 33, 95, 76]              #marks[0], marks[1]..
+student = [”Karan”, 85,“Delhi”]           #student[0], student[1]..
+
+
+student[0] = “Arjun”                      #allowed in python
+
+len(student)                              #returns length
+
+# List = Mutable
+
+## List Slicing
+
+Similar to String Slicing
+
+list_name[ starting_idx : ending_idx ] #ending idx is not included
+
+
+marks = [87, 64, 33, 95, 76]
+
+marks[ 1 : 4 ] is [64, 33, 95]
+
+marks[ : 4 ] is same as marks[ 0 : 4]
+
+marks[ 1 : ] is same as marks[ 1 : len(marks) ]
+
+marks[ -3 : -1 ] is [33, 95]
+
+
+### ***Tuples in Python***
+
+
+A built in data types lets us create immutable sequences of values.
+
+
+tup = (87, 64, 33, 95, 76)   #tup[0], tup[1]..
+
+tup[0] = 43                  #NOT allowed in python
+
+tup1 = ( )
+
+tup2 = ( 1, )
+
+tup3 = ( 1, 2, 3 )
+
+## Tuple Methods
+
+tup = (2, 1, 3, 1)
+
+tup.index( el ) #returns index of first occurrence  tup.index(1) is 1
+
+tup.count( el ) #counts total occurrences tup.count(1) is 2
 
