@@ -360,4 +360,22 @@ tup.count( el ) #counts total occurrences tup.count(1) is 2
 
 ---
 
-### ***
+### ***Dictionary in Python***
+
+Dictionary are used to store data values in key:value pairs
+They are unordered, Mutable (changeable) and don't allow to duplicate keys.
+
+
+---
+
+### ***Set In Python***
+
+Set is the collection of the unordered items.
+Each elimment in the set must be unique and immutable.
+
+
+---
+
+### ***Loop in Python***
+
+Loop are used to repeat instruction 
